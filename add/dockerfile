@@ -1,0 +1,9 @@
+FROM alpine:3
+
+RUN mkdir hello
+ADD text/*.txt hello
+
+#run echo
+# RUN echo "Tulisan saya salkdjlwajlakjsd"
+
+CMD ls hello
